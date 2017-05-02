@@ -5,17 +5,19 @@
 
 ### `doc/`
 * 보고서 파일. 최대 2개의 `.html` 또는 `.pdf` 파일.
-* 보고서를 작성하기 위해 사용한 다른 모든 파일. 
+* 보고서를 작성하기 위해 사용한 다른 모든 파일. (`.Rmd`, `.ipynb`, `.hwp`, `.docx`, 등등)
 
 ### `src/`
 * 소스 코드. 문항 별로 적절히 나누어져 있어야 함.
+* `doc/` 안에 `.Rmd`나 `.ipynb`와 같은 노트북 형식의 파일을 제출하지 않은 이상 소스 코드를 따로 제출해야 합니다.
 
 (예)
-* 2_c.R
-* 2_d.R
-* 3_a.R
-* 3_c.R
-* 4_b.R
+
+* `2_c.R`
+* `2_d.R`
+* `3_a.R`
+* `3_c.R`
+* `4_b.R`
 
 ## 문서 작성 방법
 (예) R Markdown Notebook, R Markdown을 사용하여 생성된 GitHub-Flavored Markdown, Jupter Notebook 등
